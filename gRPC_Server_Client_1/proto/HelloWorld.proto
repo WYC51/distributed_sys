@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option go_package = "github.com/WYC51/gRPC_Server_Client/proto";
+
+// Define a service
+service Greeter {
+    // Sends a greeting
+    rpc SayHello (HelloRequest) returns (HelloReply) {}
+}
+
+
+// Define Message Type
+message HelloRequest {
+    // Define request
+    string name = 1;
+}
+
+// Define Message Type
+message HelloReply {
+    // Define response
+    string message = 1;
+}
