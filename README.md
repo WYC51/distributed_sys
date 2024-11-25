@@ -1,2 +1,2 @@
 # distributed_sys
-In this repo, I present three common network application, http socket, gRPC, and RESTful API
+In this repository, I demonstrate three commonly used network application frameworks: HTTP sockets, gRPC, and RESTful APIs.
